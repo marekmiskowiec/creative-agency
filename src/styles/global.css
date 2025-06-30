@@ -1,0 +1,30 @@
+:root {
+  --clr-light: #ffffff;
+  --clr-dark: #2c2c54;
+  --clr-one: #0097e6;
+  --clr-two: #33d9b2;
+  --clr-three: #ff5252;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--clr-two);
+  font-family: "Inconsolata", "sans-serif";
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 96px 0;
+}
